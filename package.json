@@ -1,6 +1,6 @@
 {
   "name": "pngquant-bin",
-  "version": "0.3.5",
+  "version": "0.3.5-1",
   "description": "pngquant wrapper that makes it seamlessly available as a local dependency on OS X, Linux and Windows",
   "license": "MIT",
   "repository": "imagemin/pngquant-bin",
@@ -16,7 +16,6 @@
     "pngquant": "cli.js"
   },
   "scripts": {
-    "postinstall": "node lib/install.js",
     "test": "mocha --reporter list --timeout 50000"
   },
   "files": [
